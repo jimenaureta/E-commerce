@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const pass  = document.getElementById("password").value.trim();
     if(!email || !pass){ alert("Complete Email y Contraseña."); return; }
     iniciarSesion(email);
-    location.href = "./products.html";
+    location.href = "./index.html";
   });
 });
