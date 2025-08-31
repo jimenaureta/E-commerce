@@ -44,3 +44,42 @@ footer{ padding:2rem 0; text-align:center; }
   .card-product .media{ height:140px; }
   .card-product .title{ font-size:.95rem; }
 }
+
+/* ====== (estilos agregados para el LOGIN tipo maqueta) ====== */
+
+/* Fondo con degradado (opcional: cámbialo por .login-page para scope local) */
+body {
+  background: linear-gradient(135deg, orange, black);
+}
+
+/* Caja del login (100% Bootstrap: solo refinamos visual) */
+.login-box {
+  max-width: 400px;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Inputs */
+.login-box .form-control {
+  border-radius: 8px;
+  padding: 12px;
+}
+
+/* Botón (usa .btn.btn-warning) */
+.login-box .btn-warning {
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+.login-box .btn-warning:hover {
+  background-color: #ff9800;
+  box-shadow: 0 8px 18px rgba(255,152,0,0.35);
+}
+
+/* Responsivo suave */
+@media (max-width: 576px) {
+  .login-box { padding: 1.25rem !important; }
+}
