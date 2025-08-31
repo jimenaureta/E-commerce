@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Categorías - eMercado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
+    <div class="container">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav w-100 justify-content-between">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./categories.html">Categorías</a></li>
+          <li class="nav-item"><a class="nav-link" href="./sell.html">Vender</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h2>Categorías</h2>
+    <div id="cat-list-container" class="list-group"></div>
+  </main>
+
+  <footer class="text-muted"><div class="container">Este sitio forma parte de JAP</div></footer>
+
+  <div id="spinner-wrapper"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
+  <script type="module" src="./js/categories.js"></script>
+</body>
+</html>
